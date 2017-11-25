@@ -1,0 +1,44 @@
+<?php
+include "seguridad.php";
+?>
+<!DOCTYPE html>
+
+ <html lang="es">
+    <head><title>Usuario</title>
+	    <link rel="stylesheet" href="css/estilo.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	</head>
+	 <body>
+	  
+	    <form id="usuario" name="usuario" method="post" action="guardar_usuario.php">
+		<fieldset>
+	      <legend>Formulario Usuario</legend>
+		 Matricula:<br>
+         <input type="number" name="matricula" placeholder="Matricula" required>
+		 <br>
+		 Nombre:<br>
+         <input type="text" name="nombre" placeholder="Nombre" required>
+		 <br>
+		 Apellidos:<br>
+		 <input type="text" name="apellidos" placeholder="Apellidos" required>
+		 <br>
+		 Correo:<br>
+		 <input type="email" name="correo" placeholder="Correo" required>
+		 <br>
+		 Fecha de Nacimiento:<br>
+		 <input type="date" name="fech_nac" required>
+		 <br>		 
+		 <input type="radio" name="sexo" value="1" checked>Masculino<br>
+         <input type="radio" name="sexo" value="0" >Femenino<br>
+         <br>
+         <br>
+		 <button type="submit">Guardar</button>
+		 <a href="lista_usuarios.php">Regresar</a>
+		 
+		    </fieldset>
+		</form>
+		
+		
+	 
+	 </body>
+<html>

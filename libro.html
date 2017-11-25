@@ -1,0 +1,47 @@
+﻿<?php
+include "seguridad.php";
+?>
+<!DOCTYPE html>
+
+ <html lang="es">
+    <head>
+	<meta charset="UTF-8"
+	<title>Libro</title>
+	    <link rel="stylesheet" href="css/estilo.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	</head>
+	 <body>
+	  
+	    <form id="libro1" name="libro" method="post" action="guardar_libro.php">
+		<fieldset>
+	      <legend>Formulario Libro</legend>
+		 ISBN:<br>
+         <input type="text" name="isbn" placeholder="isbn" required>
+		 <br>
+		 Título:<br>
+         <input type="text" name="titulo" placeholder="Título" required>
+		 <br>
+		 Autor:<br>
+		 <input type="text" name="autor" placeholder="Autor" required>
+		 <br>
+		 Editorial:<br>
+		 <select name="editorial" required>
+		 <option value="">Selecciona Editorial</option>
+		    <option value="Dimusa">Dimusa</option>
+			<option value="Omega">Omega</option>
+			<option value="Bookmarth">Bookmarth</option>
+		</select>
+		 <br>
+		 Cantidad:<br>
+		 <input type="number" name="cantidad" required>
+		 <br>		 
+
+         <br>
+         <br>
+		 <input type="submit"  value="Guardar">
+		 
+		    </fieldset>
+		</form>
+	 
+	 </body>
+<html>

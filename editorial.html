@@ -1,0 +1,29 @@
+
+<?php
+include "seguridad.php";
+?>
+<!DOCTYPE html>
+
+ <html lang="es">
+    <head><title>Editorial</title>
+	    <link rel="stylesheet" href="css/estilo.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	</head>
+	 <body>
+	  
+	    <form id="usuario" name="editorial1" method="post" action="guardar_editorial.php">
+		<fieldset>
+	      <legend>Formulario Editorial</legend>
+		
+		 Nombre de editorial:<br>
+         <input type="text" name="nombre_editorial" placeholder="Nombre Editorial" required>
+         <br>
+	     <br>
+		 <button type="submit">Guardar</button>
+		 <a href="index.html">Regresar</a>
+		 
+		    </fieldset>
+		</form>
+	 
+	 </body>
+<html>
