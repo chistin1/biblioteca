@@ -4,7 +4,7 @@
 
 <?php
 //Guardar los datos del servidor y la bd en variables
-$servername = "localhost";
+$servername = "127.0.0.1";
 $username = "root";
 $password = "";
 $dbname = "biblioteca";
