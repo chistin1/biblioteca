@@ -1,8 +1,8 @@
-
+﻿
 
 
 <?php
-//Gaurdar los datos del servidor y la bd en variables
+//Gaurdar los datos del servidor y la bd en variable
 $servername = "localhost";
 $username = "root";
 $password = "";
