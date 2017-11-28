@@ -1,11 +1,11 @@
-
+﻿
 
 
 
 
 <?php
 
-include "conexion.php";
+include "conexio.php";
 // Revisar la conexión y envia un mensaje si no se puede conectar
 if ($conn->connect_error) {
     die("La conexión ha fallado: " . $conn->connect_error);
